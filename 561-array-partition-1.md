@@ -35,3 +35,19 @@ var arrayPairSum = function(nums) {
     return sum;
 };
 ```
+
+
+## 知识点
+1. 对于数组的排序 [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?v=control)
+2. 对于数组的循环 [Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control)
+3. 3 个等号和2个等号的区别
+    ```javascript
+    0 == false   // true
+    0 === false  // false, because they are of a different type
+    1 == "1"     // true, automatic type conversion for value only
+    1 === "1"    // false, because they are of a different type
+    null == undefined // true
+    null === undefined // false
+    '0' == false // true
+    '0' === false // false
+    ```
