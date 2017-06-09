@@ -1,7 +1,7 @@
 这里我们接触算法中 非常重要的一个概念: __Hash table__, 中文叫哈希表。
 为什么要用 Hash table, 用 array 不行吗？
 
-###Array
+### Array
 - 优点: 所有的 element 按照顺序，齐齐整整放在一起
 - 缺点: 查找一个元素的时间是 O(N)， 这是什么意思呢？ 
     比如我们有一个 array， [0, 3, 2, 1, 4, 5, 8, 7, 9, ]
@@ -10,7 +10,7 @@
 
     (当然，如果这个数组是排序好的，那么可以用二分查找，binary search, 时间是O(logN))
 
-###Hash table
+### Hash table
 查找一个元素的时间是O(1), 表示的是无论我存了多少个元素，我找到这个元素的时间是常数.
 hash table 是一种 key, value 键值对的表比如
 
@@ -38,7 +38,7 @@ students["xiaohong"] // female
 students.xiaoming // male
 ```
 
-###Hash set
+### Hash set
 你暂时可以把 hash set 当作 hashmap 的一种变种，只不过它不是 key/value pair, 只需要存 key, 并且不能有 duplicate, hashmap 也是不能有 duplicate, 因为后来的key 会把之前相同的key 覆盖掉.
 这个你知道就行
 
